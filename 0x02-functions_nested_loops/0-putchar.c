@@ -4,10 +4,11 @@
  * main - print putchar
  * Return: always 0
  */
+
 int main(void)
 {
 	_putchar('_');
-	_putchar('p'):
+	_putchar('p');
 	_putchar('u');
 	_putchar('t');
 	_putchar('c');
@@ -18,3 +19,5 @@ int main(void)
 
 	return (0);
 }
+
+
