@@ -2,14 +2,16 @@
 #include "main.h"
 
 /**
- * _puts - a function that prints a string
- * @str: string input
- * Return: string
+ * _puts - prints a string
+ * @str: string to print
+ *
+ * Description: print a string
+ * On success: returns no error
  */
 
 void _puts(char *str)
 {
-	int i;
+	int i = 0;
 
 	while (*(str + i) != '\0')
 	{
